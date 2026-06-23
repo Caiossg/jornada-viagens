@@ -37,3 +37,7 @@ h1 {
   font-family: "Monteserrat";
   font-weight: var(--title-weight);
 }
+
+header{
+  background-color: #000000;
+}

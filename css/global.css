@@ -38,16 +38,23 @@ h1 {
   font-weight: var(--title-weight);
 }
 
+a{
+  text-decoration: none;
+}
+
 body{
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
 
+.section-title{
+  margin: 100px;
+}
 .section-title h2{
 
   font-size: 28px;
   font-weight: var(--title-weight);
-  margin: 0;
+  margin: 20px;
   text-align: center;
   
 }
@@ -87,7 +94,7 @@ body{
 @media screen and (min-width:1024px){
   .button:hover{
     background-color: var(--primary-color);
-    
+
   }
   
 }

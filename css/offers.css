@@ -7,7 +7,7 @@
 .card {
     color: var(--text-secundary-color);
     
-    width: 312px;
+
     height: 288px;
     box-sizing: border-box;
     padding: 24px 16px;
@@ -15,7 +15,7 @@
     text-align: center;
     
 }
-.card header{
+.offers-cards header{
     display: block;  
     position: static;
     padding: 0;

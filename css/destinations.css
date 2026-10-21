@@ -1,0 +1,150 @@
+.destinations{
+  width: 312px;
+  margin: 0px auto;
+  
+}
+
+.destination-items{
+  display: flex;
+  flex-direction: column;
+
+
+  
+}
+
+.destination-items header{
+    display: block;  
+    position: static;
+    padding: 0;
+    background-color: transparent;
+
+}
+
+.destination-items .item{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 24px;
+  gap: 24px;
+}
+
+.destinations .item .img-item{
+  width: 100%;
+  height: 368px;
+}
+
+.destinations .item.tokyo .img-item{
+
+    background-image: url("../img/Tokyo_mobile.jpg");
+    background-size: cover;
+
+    
+}
+
+.destinations .item.osaka .img-item{
+
+    background-image: url("../img/Osaka_mobile.jpg");
+    background-size: cover;
+
+    
+}
+
+.destination-items .item h4{
+  font-size: 28px;
+  margin-top: 24px;
+
+}
+
+.destination-items .item p{
+  font-size: 20px;
+}
+
+.destination-items .button {
+  width: 100%;
+
+}
+
+@media screen and (min-width:768px){
+  .destinations{
+    width: 648px;
+  }
+  .destinations .item .img-item{
+
+  height: 452px;
+}
+
+
+
+  .destination-items .button {
+  width: 260px;
+
+}
+
+  .destinations .item.tokyo .img-item{
+
+    background-image: url("../img/Tokyo_tablet.jpg");
+    background-size: cover;
+
+    
+  }
+
+.destinations .item.osaka .img-item{
+
+    background-image: url("../img/Osaka_tablet.jpg");
+    background-size: cover;
+
+    
+  }
+  
+}
+
+@media screen and (min-width:1024px){
+
+
+  
+}
+
+@media screen and (min-width:1440px){
+
+  .destinations{
+    width: 1400px;
+    
+
+  }
+
+    .destinations .item .img-item{
+   
+    height: 452px;
+    
+  }
+
+    .destination-items{
+    
+
+    justify-self: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 1400px;
+
+  }
+
+    .destinations .item.tokyo .img-item{
+
+    background-image: url("../img/Tokyo_desk.jpg");
+
+
+    
+  }
+
+.destinations .item.osaka .img-item{
+
+    background-image: url("../img/Osaka_desk.jpg");
+    background-size: cover;
+
+    
+  }
+ 
+
+  
+}
+
